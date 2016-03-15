@@ -1,0 +1,20 @@
+/*! ******************************************************
+*
+*	Theme Name:     holytrails
+*   Author:         Gecko
+*   Author URI:     http://gecko-btl.com/
+*   Description:    holytrails main theme
+*   Version:        1.2
+*   License:        GNU General Public License v2 or later
+*   License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*   Remember that if you edit any of this theme files
+*   and then update the theme from Toolset page
+*   all your changes will be gone.
+*
+*   If you want to avoid that use Child Theme:
+*   http://codex.wordpress.org/Child_Themes
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/img,figure{max-width:100%;height:auto}@media (min-width: 768px){.alignleft{float:left}.alignright{float:right}.aligncenter{display:block;margin-left:auto;margin-right:auto}img.aligncenter,img.alignnone,img.alignright,img.alignleft,figure.aligncenter,figure.alignnone,figure.alignright,figure.alignleft{margin-bottom:15px}img.alignleft,figure.alignleft{margin-right:30px}img.alignright,figure.alignright{margin-left:30px}}@media (max-width: 767px){.alignleft,.alignright,.aligncenter{display:block;margin:0 auto 15px}}.wp-video>div{max-width:100%}.gallery{margin:30px auto}.gallery:before,.gallery:after{content:" ";display:table}.gallery:after{clear:both}.gallery-item{text-align:center;padding:15px;float:left;width:100%}.gallery-item img{border:none}.gallery-caption,.wp-caption-text{padding:9px;color:#666;font-size:.9em}@media (min-width: 480px){.gallery-columns-2 .gallery-item{width:50%}.gallery-columns-2 .gallery-item:nth-child(2n+1){clear:both}.gallery-columns-3 .gallery-item{width:33.33333%}.gallery-columns-3 .gallery-item:nth-child(3n+1){clear:both}.gallery-columns-4 .gallery-item{width:25%}.gallery-columns-4 .gallery-item:nth-child(4n+1){clear:both}}@media (min-width: 480px) and (max-width: 767px){.gallery-columns-5 .gallery-item{width:25%}.gallery-columns-5 .gallery-item:nth-child(4n+1){clear:both}.gallery-columns-6 .gallery-item{width:25%}.gallery-columns-6 .gallery-item:nth-child(4n+1){clear:both}.gallery-columns-7 .gallery-item{width:25%}.gallery-columns-7 .gallery-item:nth-child(4n+1){clear:both}.gallery-columns-8 .gallery-item{width:25%}.gallery-columns-8 .gallery-item:nth-child(4n+1){clear:both}.gallery-columns-9 .gallery-item{width:25%}.gallery-columns-9 .gallery-item:nth-child(4n+1){clear:both}}@media (min-width: 992px){.gallery-columns-5 .gallery-item{width:20%}.gallery-columns-5 .gallery-item:nth-child(5n+1){clear:both}.gallery-columns-6 .gallery-item{width:16.66667%}.gallery-columns-6 .gallery-item:nth-child(6n+1){clear:both}.gallery-columns-7 .gallery-item{width:14.28571%}.gallery-columns-7 .gallery-item:nth-child(7n+1){clear:both}.gallery-columns-8 .gallery-item{width:12.5%}.gallery-columns-8 .gallery-item:nth-child(8n+1){clear:both}.gallery-columns-9 .gallery-item{width:11.11111%}.gallery-columns-9 .gallery-item:nth-child(9n+1){clear:both}}.not-assigned{max-width:700px;margin:50px auto}.not-assigned-body{text-align:center}.not-assigned-body .btn{margin-top:5px}.not-assigned-body .small{margin-top:5px}.not-assigned-helper{margin-top:15px}.not-assigned-helper ul{font-size:.9em}

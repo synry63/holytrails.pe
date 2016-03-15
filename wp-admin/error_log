@@ -1,0 +1,5 @@
+[10-Sep-2015 22:33:27 UTC] PHP Fatal error:  Class 'Walker_Comment' not found in /home4/synry63/public_html/holytrails.pe/wp-content/themes/toolset-starter/functions/bootstrap-wordpress.php on line 121
+[15-Sep-2015 12:28:43 America/Chicago] PHP Fatal error:  Call to undefined function phpdefine() in /home4/synry63/public_html/holytrails.pe/wp-config.php on line 1
+[15-Sep-2015 12:28:45 America/Chicago] PHP Fatal error:  Call to undefined function phpdefine() in /home4/synry63/public_html/holytrails.pe/wp-config.php on line 1
+[15-Sep-2015 12:28:51 America/Chicago] PHP Fatal error:  Call to undefined function phpdefine() in /home4/synry63/public_html/holytrails.pe/wp-config.php on line 1
+[15-Sep-2015 12:28:52 America/Chicago] PHP Fatal error:  Call to undefined function phpdefine() in /home4/synry63/public_html/holytrails.pe/wp-config.php on line 1

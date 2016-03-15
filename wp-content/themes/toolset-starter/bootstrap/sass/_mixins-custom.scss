@@ -1,0 +1,103 @@
+
+/* Padding and margin
+**************************************************/
+
+ @mixin paddingx ( $pad-left,  $pad-right) {
+	padding-left:  $pad-left;
+	padding-right:  $pad-right;
+}
+@mixin paddingxx ( $pad-hor) {
+	padding-left:  $pad-hor;
+	padding-right:  $pad-hor;
+}
+
+@mixin paddingy ( $pad-top,  $pad-bottom) {
+	padding-top:  $pad-top;
+	padding-bottom:  $pad-bottom;
+}
+@mixin paddingyy ( $pad-ver) {
+	padding-top:  $pad-ver;
+	padding-bottom:  $pad-ver;
+}
+
+@mixin marginx ( $margin-left,  $margin-right) {
+	margin-left:  $margin-left;
+	margin-right:  $margin-right;
+}
+@mixin marginxx ( $margin-hor) {
+	margin-left:  $margin-hor;
+	margin-right:  $margin-hor;
+}
+
+@mixin marginy ( $margin-top,  $margin-bottom) {
+	margin-top:  $margin-top;
+	margin-bottom:  $margin-bottom;
+}
+@mixin marginyy ( $margin-ver) {
+	margin-top:  $margin-ver;
+	margin-bottom:  $margin-ver;
+}
+
+
+%center-middle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+%txt2brand {
+	color: inherit;
+	&:hover,
+	&:focus {
+		color: $brand-primary;
+	}
+}
+
+%header-title {
+	font-weight: 100;
+	text-align: center;
+	@include marginy($margin-lg, $margin-base);
+	position: relative;
+	&:after {
+		content: '';
+		display: block;
+		height: 2px;
+		width: 150px;
+		margin: 0 auto;
+		margin-top: $margin-sm;
+		background: $gray-lighter;
+	}
+}
+%pagination-link {
+	display: inline-block;
+	vertical-align: top;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: $white;
+	font-size: 16px;
+	background-image: none;
+	color: $gray;
+	border: 1px solid $gray-light;
+	float: none;
+	padding: 0;
+	&:hover,
+	&:focus {
+		background: $gray-lighter;
+		text-decoration: none;
+		color: $text-color;
+	}
+}
+
+%button-price {
+	background: rgba($brand-primary, .3);
+	color: darken($brand-primary, 30%);
+	font-size: 1.1em;
+	padding: $margin-xxs $margin-xs;
+	margin-bottom: 0;
+	text-align: center;
+}

@@ -1,0 +1,165 @@
+/*! ******************************************************
+*
+*	Theme Name:     Toolset Starter
+*   Author:         OnTheGoSystems
+*   Author URI:     http://www.onthegosystems.com/
+*   Description:    Simple, clear and modern Bootstrap 3-based theme. Perfect base for developing all kinds of responsive sites with Toolsets, including the Layouts plugin (no extra integration needed, you activate Layouts and the drag and drop facilities work out of the box). Uses WordPress theme customizer and supports Font Awesome Icons. Supports WooCommerce integration by styles unification.
+*   Version:        1.2
+*   License:        GNU General Public License v2 or later
+*   License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*   Remember that if you edit any of this theme files
+*   and then update the theme from Toolset page
+*   all your changes will be gone.
+*
+*   If you want to avoid that use Child Theme:
+*   http://codex.wordpress.org/Child_Themes
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+@import "bootstrap/sass/variables";
+@import "bootstrap/sass/mixins";
+@import "bootstrap/sass/variables-custom";
+@import "bootstrap/sass/mixins-custom";
+
+
+/*******************************************
+ * 		WordPress base styling
+ ********************************************/
+
+img, figure {
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width: $screen-sm-min) {
+	.alignleft {
+		float: left;
+	}
+	.alignright {
+		float: right;
+	}
+	.aligncenter {
+		display: block;
+		@include marginxx(auto);
+	}
+
+	img, figure {
+		&.aligncenter,
+		&.alignnone,
+		&.alignright,
+		&.alignleft {
+			margin-bottom: $margin-sm;
+		}
+		&.alignleft {
+			margin-right: $margin-base;
+		}
+		&.alignright {
+			margin-left: $margin-base;
+		}
+	}
+}
+
+@media (max-width: $screen-xs-max) {
+	.alignleft,
+	.alignright,
+	.aligncenter {
+		display: block;
+		margin: 0 auto $margin-sm;
+	}
+}
+
+.wp-video > div {
+	max-width: 100%;
+}
+
+/*******************************************
+*   Gallery styling
+********************************************/
+
+.gallery {
+	@include clearfix();
+	margin: $margin-base auto;
+}
+
+.gallery-item {
+	text-align: center;
+	padding: $margin-sm;
+	float: left;
+	width: 100%;
+	img {
+		border: none;
+	}
+}
+
+.gallery-caption,
+.wp-caption-text {
+	padding: $thumbnail-caption-padding;
+	color: $thumbnail-caption-color;
+	font-size: .9em;
+}
+
+@media (min-width: $screen-xs-min) {
+	@for $i from 2 through 4 {
+		.gallery-columns-#{$i} {
+			.gallery-item {
+				width: (100%/$i);
+			}
+			.gallery-item:nth-child(#{$i}n + 1) {
+				clear: both;
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-xs-min) AND (max-width: $screen-xs-max) {
+	@for $i from 5 through 9 {
+		.gallery-columns-#{$i} {
+			.gallery-item {
+				width: (100%/4);
+			}
+			.gallery-item:nth-child(4n + 1) {
+				clear: both;
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-md-min) {
+	@for $i from 5 through 9 {
+		.gallery-columns-#{$i} {
+			.gallery-item {
+				width: (100%/$i);
+			}
+			.gallery-item:nth-child(#{$i}n + 1) {
+				clear: both;
+			}
+		}
+	}
+}
+
+/*******************************************
+ * 		Theme helper
+ ********************************************/
+.not-assigned {
+	max-width: 700px;
+	margin: $margin-lg auto;
+}
+
+.not-assigned-body {
+	text-align: center;
+	.btn {
+		margin-top: $margin-xxs;
+	}
+	.small {
+		margin-top: $margin-xxs;
+	}
+}
+
+.not-assigned-helper {
+	margin-top: $margin-sm;
+	ul {
+		font-size: .9em;
+	}
+}

@@ -1,0 +1,339 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Toolset Starter\n"
+"POT-Creation-Date: 2015-06-11 08:56+0100\n"
+"PO-Revision-Date: 2015-07-06 13:48+0100\n"
+"Last-Translator: OnTheGoSystems <mercedes.b@icanlocalize.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: ../.\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: dd-layouts-cells\n"
+"X-Poedit-SearchPath-2: bootstrap\n"
+"X-Poedit-SearchPath-3: functions\n"
+"X-Poedit-SearchPath-4: images\n"
+"X-Poedit-SearchPath-5: js\n"
+"X-Poedit-SearchPath-6: theme-dd-layouts\n"
+"X-Poedit-SearchPath-7: images\n"
+
+#: 404.php:10
+msgid "Error 404"
+msgstr "Error 404"
+
+#: 404.php:11
+msgid "Unfortunately the page you were looking for does not exist"
+msgstr "Lamentablemente la página que busca no existe"
+
+#: 404.php:12
+msgid "Don't worry! You can always"
+msgstr "¡No se preocupe! Puede"
+
+#: 404.php:12
+msgid "Homepage"
+msgstr "Inicio"
+
+#: 404.php:12
+msgid "go to homepage"
+msgstr "ir a Inicio"
+
+#: comments.php:20
+msgid "One thought on"
+msgstr "Un comentario acerca de"
+
+#: comments.php:23
+msgid "thoughts on"
+msgstr "comentarios acerca de"
+
+#: comments.php:38
+msgid "Older Comments"
+msgstr "Comentarios anteriores"
+
+#: comments.php:39
+msgid "Newer Comments"
+msgstr "Comentarios Recientes"
+
+#: functions.php:58
+msgid "Header Menu"
+msgstr "Menú de la cabecera"
+
+#: functions.php:113
+msgid "Widgets in Footer"
+msgstr "Widgets del pie de página"
+
+#: functions.php:122
+msgid "Widgets in Header"
+msgstr "Widgets de la cabecera"
+
+#: functions.php:131
+msgid "Default Sidebar"
+msgstr "Barra lateral predeterminada"
+
+#: header.php:62
+msgid "Toggle navigation"
+msgstr "Cambiar Navegación "
+
+#: image.php:17
+msgid "Previous Image"
+msgstr "Imagen Anterior"
+
+#: image.php:18
+msgid "Next Image"
+msgstr "Imagen Siguiente"
+
+#: index.php:20
+msgid "No posts found"
+msgstr "No se encontraron entradas"
+
+#: search-form.php:3
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: functions/bootstrap-wordpress.php:19
+msgid "Olders posts"
+msgstr "Entradas anteriores"
+
+#: functions/bootstrap-wordpress.php:22
+msgid "Newer posts"
+msgstr "Entradas recientes"
+
+#: functions/bootstrap-wordpress.php:63
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: functions/bootstrap-wordpress.php:64
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: functions/bootstrap-wordpress.php:159
+msgid "Post author"
+msgstr "Autor de la entrada"
+
+#: functions/bootstrap-wordpress.php:166
+msgid "at"
+msgstr "en"
+
+#: functions/bootstrap-wordpress.php:172
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario está esperando moderación"
+
+#: functions/bootstrap-wordpress.php:181
+msgid "Edit"
+msgstr "Editar"
+
+#: functions/bootstrap-wordpress.php:185
+msgid "Reply"
+msgstr "Responder"
+
+#: functions/bootstrap-wordpress.php:215
+msgid "Comment"
+msgstr "Comentar"
+
+#: functions/bootstrap-wordpress.php:220
+msgid "You may use these"
+msgstr "Puede usar las siguientes"
+
+#: functions/bootstrap-wordpress.php:220
+msgid "tags and attributes:"
+msgstr "etiquetas y atributos:"
+
+#: functions/bootstrap-wordpress.php:242
+msgid "Name"
+msgstr "Nombre"
+
+#: functions/bootstrap-wordpress.php:244
+msgid "Email"
+msgstr "Email"
+
+#: functions/bootstrap-wordpress.php:246
+msgid "Website"
+msgstr "Sitio web"
+
+#: functions/bootstrap-wordpress.php:267
+msgid "This post is password protected."
+msgstr "Está entrada está protegida con contraseña"
+
+#: functions/bootstrap-wordpress.php:267
+msgid "To view it please enter your password below"
+msgstr "Para verla por favor ingrese su contraseña"
+
+#: functions/bootstrap-wordpress.php:270
+msgid "Password: "
+msgstr "Contraseña:"
+
+#: functions/bootstrap-wordpress.php:273
+msgid "Submit"
+msgstr "Enviar"
+
+#: functions/bs-nav-walker.php:165
+msgid "Home"
+msgstr "Inicio"
+
+#: functions/bs-nav-walker.php:167
+msgid "Add a menu"
+msgstr "Agregar un menú"
+
+#: functions/theme-customizer.php:27
+msgid "Logo"
+msgstr "Logo"
+
+#: functions/theme-customizer.php:37
+msgid "Upload a logo"
+msgstr "Subir un logo"
+
+#: functions/theme-customizer.php:60
+msgid "Primary Color"
+msgstr "Color primario"
+
+#: functions/theme-customizer.php:61
+msgid "Applied to the menu, links, etc."
+msgstr "Aplicado al menú, enlaces, etc."
+
+#: functions/theme-customizer.php:218
+msgid "Default"
+msgstr "Predeterminado"
+
+#: functions/theme-customizer.php:286
+msgid "Colors"
+msgstr "Colores"
+
+#: functions/theme-customizer.php:287 functions/theme-customizer.php:294
+#, php-format
+msgid ""
+"Your PHP version (%s) does not support this feature. Please upgrade to at "
+"least PHP 5.3 version to customise your colors."
+msgstr ""
+"Su versión PHP (%s) no soporta esta característica. Por favor actualice por "
+"lo menos a PHP 5.3 para personalizar los colores."
+
+#: functions/toolset-assigned-message.php:10
+msgid "There is no Content Template assigned"
+msgstr "No se ha asignado Plantilla de contenido"
+
+#: functions/toolset-assigned-message.php:12
+#: functions/toolset-assigned-message.php:48
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: functions/toolset-assigned-message.php:17
+#: functions/toolset-assigned-message.php:53
+#: functions/toolset-assigned-message.php:113
+msgid "Do you want this page to look different?"
+msgstr "¿Quiere que esta página se vea diferente?"
+
+#: functions/toolset-assigned-message.php:20
+msgid "Content Templates"
+msgstr "Plantillas de contenido"
+
+#: functions/toolset-assigned-message.php:21
+msgid "Assign a Content Template"
+msgstr "Asignar una Plantilla de contenido"
+
+#: functions/toolset-assigned-message.php:27
+msgid "Designing WordPress Content with Content Templates"
+msgstr "Diseñar contenido WordPress con Plantillas de contenido"
+
+#: functions/toolset-assigned-message.php:28
+msgid "Learn about Content Templates"
+msgstr "Aprender sobre Plantillas de contenido"
+
+#: functions/toolset-assigned-message.php:34
+msgid ""
+"You can see this message because you are logged in as a user who can assign "
+"Content Templates. <br>Your visitors won't see this message."
+msgstr ""
+"Puede ver este mensaje porque inició sesión con un usuario que puede asignar "
+"Plantillas de contenido.  <br>Sus visitantes no verán este mensaje."
+
+#: functions/toolset-assigned-message.php:46
+msgid "There is no WordPress Archive Template assigned"
+msgstr "No se ha asignado ningúna Plantilla de archivo de WordPress"
+
+#: functions/toolset-assigned-message.php:56
+msgid "WordPress Archive"
+msgstr "Archivo de WordPress"
+
+#: functions/toolset-assigned-message.php:57
+msgid "Assign a WordPress Archive Template"
+msgstr "Asignar una Plantilla de archivo de WordPress"
+
+#: functions/toolset-assigned-message.php:63
+msgid "Customize Archive Page with WordPress Archive Template"
+msgstr ""
+"Personalizar la Página de archivo con la Plantilla de archivo de WordPress"
+
+#: functions/toolset-assigned-message.php:64
+msgid "Learn about WordPress Archive Templates"
+msgstr "Aprender acerca de las Plantillas de archivo de WordPress"
+
+#: functions/toolset-assigned-message.php:69
+msgid ""
+"You can see this message because you are logged in as a user who can assign "
+"WordPress Archive Templates. <br>Your visitors won't see this message."
+msgstr ""
+"Puede ver este mensaje porque inició sesión con un usuario que puede asignar "
+"Plantillas de archivo de WordPress. <br>Sus visitantes no verán este mensaje."
+
+#: functions/toolset-assigned-message.php:83
+msgid "Page: There is no Layout assigned"
+msgstr "Página: no se ha asignado ningún Layout"
+
+#: functions/toolset-assigned-message.php:85
+#: functions/toolset-assigned-message.php:90
+msgid "Using Layouts as Templates for Contents"
+msgstr "Usar Layouts como Plantillas para contenidos"
+
+#: functions/toolset-assigned-message.php:88
+msgid "Single Post: There is no Layout assigned"
+msgstr "Entrada única: no se ha asignado ningún Layout"
+
+#: functions/toolset-assigned-message.php:93
+msgid "Archive Page: There is no Layout assigned"
+msgstr "Página de archivo: no se ha asignado ningún Layout"
+
+#: functions/toolset-assigned-message.php:95
+msgid "Using Layouts as Templates for Archives"
+msgstr "Usar Layouts como Plantillas para archivos"
+
+#: functions/toolset-assigned-message.php:98
+msgid "Error 404 Page: There is no Layout assigned"
+msgstr "Página de Error 404: No se ha asignado ningún Layout"
+
+#: functions/toolset-assigned-message.php:100
+msgid "Designing the 404 Page with Layouts"
+msgstr "Diseñar la página 404 con Layouts"
+
+#: functions/toolset-assigned-message.php:116
+msgid "Layouts"
+msgstr "Layouts"
+
+#: functions/toolset-assigned-message.php:116
+msgid "Assign a Layout"
+msgstr "Asignar un Layout"
+
+#: functions/toolset-assigned-message.php:121
+msgid "Find out more:"
+msgstr "Aprender más:"
+
+#: functions/toolset-assigned-message.php:133
+#: functions/toolset-assigned-message.php:134
+msgid "Learn how the Layouts plugin works"
+msgstr "Aprender cómo funciona el plugin Layouts"
+
+#: functions/toolset-assigned-message.php:140
+#: functions/toolset-assigned-message.php:141
+msgid "Try our reference site built with this theme"
+msgstr "Probar nuestro sitio de referencia hecho con este tema"
+
+#: functions/toolset-assigned-message.php:148
+msgid ""
+"You can see this message because you are logged in as a user who can assign "
+"Layouts. <br>Your visitors won't see this message."
+msgstr ""
+"Puede ver este mensaje porque inició sesión con un usuario que puede asignar "
+"Layouts. <br> Sus visitantes no verán este mensaje."

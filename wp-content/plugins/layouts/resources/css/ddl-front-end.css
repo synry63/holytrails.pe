@@ -1,0 +1,51 @@
+/*
+	This file contains styles for Layouts plugin elements to be displayed in the front end
+ */
+@import url('../../toolset-common/utility/css/notifications.css');
+
+#wpadminbar ul#wp-admin-bar-root-default> li.layouts-edit-link a{position:relative;}
+#wpadminbar ul#wp-admin-bar-root-default> li.layouts-edit-link a:before{
+  font-family: "onthegosystems-icons"!important;
+  content: "\f117";
+  top:2px;
+}
+
+
+.spinner {
+    background: url(../images/spinner.gif) no-repeat;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    display: none;
+    float: right;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 20px;
+    height: 20px;
+    margin: 2px 5px 0;
+}
+
+.ajax-loader {
+    display: inline-block;
+    float: none;
+    margin: 0 10px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+/* BOOTSTRAP NAVBAR OVERRIDES */
+
+/* handle full width rows */
+
+.ddl-full-width-row>[class*="col-"]:last-child {
+padding-right: 0px;
+}
+.ddl-full-width-row>[class*="col-"]:first-child {
+padding-left: 0px;
+}
+
+/* COMMENTS */
+
+.comment-body p, .comment-body div{word-wrap: break-word;}
+
+/* WPML MENU FIX */
+.ddl-nav-wrap .menu-item-language{display:none;}
