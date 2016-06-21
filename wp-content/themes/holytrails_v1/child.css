@@ -10,6 +10,57 @@ a:hover, a:focus{
     background: #f38e24;
     border: 0;
 }
+
+
+.book-wrap a{
+    padding: 10px;
+    margin-bottom: 5px;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    display: block;
+    border-radius: 5px;
+}
+.book-wrap a:hover{
+    color:#000;
+    background: #FF8F07;
+}
+
+.book-wrap #dropdown-book{
+    width: 100%;
+    background: #FF8F07;
+    box-shadow: 0px 3px 0px 0px #e88009;
+}
+
+.book-wrap .dropdown-book-dates{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0;
+}
+.form-dates{
+    padding: 50px;
+}
+
+#dates thead{
+    background: #FF8F07;
+    color: #fff;
+}
+#dates thead th{
+    vertical-align: top;
+    text-align: center;
+}
+#dates tbody td{
+    vertical-align: middle;
+    text-align: center;
+}
+#dates tbody #book-now{
+    margin: 0;
+    background: rgba(0,0,0,.8);
+    box-shadow: 0px 3px 0px 0px #000;
+}
+
+
 .equipements-item .equi-img-wrap{
     position: relative;
 }

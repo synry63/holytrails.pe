@@ -58,5 +58,11 @@ jQuery( document ).ready(function() {
             },1000);
         }*/
 
+        $( ".dropdown-book-dates" ).hide();
+        $( "#dropdown-book" ).click(function() {
+            $( ".dropdown-book-dates" ).slideToggle("fast");
+        });
+
+
 
 });
