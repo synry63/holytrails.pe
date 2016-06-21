@@ -130,7 +130,7 @@ remove_action( 'wp_head', 'wp_generator' ); // Display the XHTML generator that 
 
 // remove a menu from admin panel
 function custom_menu_page_removing() {
-    remove_menu_page( 'wpcf' ); //wplivechat-menu = chat // wpcf = type
+    //remove_menu_page( 'wpcf' ); //wplivechat-menu = chat // wpcf = type
 }
 add_action( 'admin_menu', 'custom_menu_page_removing' );
 
